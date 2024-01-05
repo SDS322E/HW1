@@ -1,0 +1,150 @@
+---
+title: "HW 1"
+---
+
+### Enter your name and EID here:
+
+**You will submit this homework assignment as a pdf file on Gradescope.**
+
+
+## Part 1
+
+The following questions focus on developing expectations for certain questions that could be answered with data. The goal here is not to obtain the correct answer, but to explain the reasoning process that lead you to your estimate.
+
+### Question 1
+
+Without looking at any sources or references, provide an estimate of how many adults in the United States currently have been diagnosed with asthma by a doctor? State your answer as an interval, as in "between L and U number of people" where L and U are a lower and upper bound, respectively. Explain what information or reasoning you used to arrive at this expectation.
+
+**Write your answer in bold here.**
+
+
+### Question 2
+
+Suppose a friend suggests that you get lunch at a new restaurant called AwesomeBurger, which is supposed to be the hottest burger place in town. Neither of you has been there yet and so do not know how much it will cost to eat lunch there. 
+
+1. Describe what kinds of information you might draw on to develop expectations for what the cost of lunch will be. 
+
+*Write your answer in italics here.*
+
+2. What would you expect the total cost of lunch to be for one person? You can state this as an interval if you want (i.e. "between L and U dollars"). What local knowledge of your town can you use to arrive at this interval?
+
+*Write your answer in italics here.*
+
+
+## Part 2
+
+This section focuses on building hypotheses for investigating data science questions.
+
+### Question 3
+
+A scientist is interested in studying how the environment can affect a person's health. The question that she comes up with is "Does the environment affect health?" 
+
+Give two examples of how this question can be revised to be made more specific. (Hint: Which words in the question can be modified to be more specific?) Use a Markdown numbered list to present your examples.
+
+Of the two examples you provide, which question do you think would be easier to study?
+
+**Write your answer in bold here.**
+
+
+### Question 4
+
+The owner of a restaurant is interested in understanding how the restaurant's business changes with the local weather patterns. The question he asks is "How does the weather affect the business of my restaurant?" Give two examples of how this question can be made to be more specific. Use a Markdown numbered list to present your two examples.
+
+### Question 5
+
+You are assigned to analyze some data on temperatures in the city where you live. In particular, there is interest in understanding the temperature characteristics of the year 2023, which happened to be a very hot year. You are given a data file containing daily average temperature data for 2023. The data come in the form of a table where each row represents one day of data. The first thing you do when you open the data file is count the number of rows in the dataset. 
+
+1. About how many rows would you expect to be in the dataset? 
+
+**Write your answer in bold here.**
+
+2. What number of rows in the dataset would be *unexpected* (i.e. surprising) to you? 
+
+**Write your answer in bold here.**
+
+3. Develop two hypotheses that might explain why the number of rows in the dataset could be the number that you describe as unexpected. Use Markdown bullet points to state your two hypotheses.
+
+Write your answers using plain text bullet points here.
+
+
+
+### Question 6
+
+Two executives at an online clothing retailer are debating how to address the issue of "abandoned carts", where customers add items to their shopping cart but never checkout and buy them. One executive comes up with an idea to streamline the checkout process on the web site by reducing the number of pages the customer must click through. That executive thinks that reducing the number of clicks will give customers less time to consider backing out of the purchase. The other executive is not sure whether streamlining the checkout will help and wants to see some data first. 
+
+Propose two checkable hypotheses that relate to the business question being debated (call them "Hypothesis A" and "Hypothesis "B"). Assume, within reason, that whatever data required to check those hypotheses are available or obtainable.
+
+* Write your hypotheses here as a bulleted list
+
+
+### Question 7
+
+For the two hypotheses that you proposed in the previous question (Hypothesis A and Hypothesis B), describe 
+
+* Describe what outcome you would expect to observe if Hypothesis A were true (i.e. what would you expect to see in the data that you would collect?)
+
+**Write your answer in bold here.**
+
+e* Similarly, describe what outcome you would expect to observe in the data if Hypothesis B were true.
+
+**Write your answer in bold here.**
+
+
+### Question 8
+
+The City of Baltimore, Maryland noticed that there were a significant number of car accidents happening on an interstate highway (Interstate 83) that runs through the city. City officials hypothesized that the reason there were so many accidents was that drivers were driving too fast (above the posted speed limit of 55 mph) around some of the curves in the highway. In response, the city decided to install speed cameras just before one of the curves where there were a large number of accidents. Ultimately, the speed cameras would be able to issue speeding tickets to drivers who exceeded the speed limit. However, initially the city wanted to use the cameras to collect some data on driver speeds. 
+
+* If the city's hypothesis is Hypothesis A (drivers are driving over the speed limit and causing accidents), propose two alternative hypotheses (Hypothesis B and Hypothesis C) that would explain why there are so many accidents occurring.
+
+**Write your answer in bold here.**
+
+* Describe and explain what data you would expect to see from the speed camera under each of the three hypotheses (A, B, and C).
+
+**Write your answer in bold here.**
+
+
+### Question 9
+
+The City of Boston intended to initiate a program to improve [street safety at the neighborhood level](https://www.boston.gov/departments/transportation). The program involved (1) installing speed humps on small streets to reduce the prevalence of speeding; and, near some public places, adding crosswalk features that improve visibility, reinforce yielding to pedestrians, and slow drivers moving through. Before implementing the program the city wants to measure recent trends in pedestrian safety as part of a baseline assessment. 
+
+Two hypotheses related to this issue are (A) Accidents involving pedestrians have been constant over the past 2 years; and (B) Accidents involving pedestrians have been decreasing over the past 2 years. The tool that they choose to analyze the data is a plot of the monthly number of pedestrian-involved accidents over the most recent two years. Based on the definition of an informative tool, is this tool informative for the proposed hypotheses? Explain/demonstrate why or why not.
+
+**Write your answer in bold here.**
+
+## Part 3: (5 pts)
+
+The Internet clothing retailer Stitch Fix has developed a new model for selling clothes to people online. Their basic approach is to send people a box of 5--6 items of clothing and allow them to try the clothes on. Customers keep (and pay for) what they like while mailing back the remaining clothes. Stitch Fix then sends customers a new box of clothes typically a month later.
+
+A critical question for Stitch Fix to consider is "Which clothes should the send to each customer?" Since customers do not request specific clothes, Stitch Fix has to come up with 5--6 items on its own that it thinks the customers will like (and therefore buy). In order to learn something about each customer, they administer an **intake survey** when a customer first signs up for the service. The survey has about 20 questions and the data is then used to predict what kinds of clothes customers will like. In order to use the data from the intake survey, a statistical algorithm must be built in order to process the customer data and make clothing selections.
+
+Suppose you are in charge of building the intake survey and the algorithm for choosing clothes based on the intake survey data. 
+
+
+### Question 10: (2 pts)
+
+What kinds of questions do you think might be useful to ask of a customer in an intake survey in order to better choose clothes for them? What kinds of data would be most valuable? See if you can come up with at least 5 items.
+
+**Your answer goes here. Write sentences in bold.**
+
+### Question 11: (3 pts)
+
+In addition to the technical challenges of collecting the data and building this algorithm, you must also consider the impact the algorithm may have on the people involved. What potential negative impact might the algorithm have on the customers who are submitting their data? Consider both the data being submitted as well as the way in which the algorithm will be used when answering this question.
+
+
+**Your answer goes here. Write sentences in bold.**
+
+
+
+
+
+
+
+------------------------------------------------------------------------
+
+## Formatting: (3 pts)
+
+Knit your file! Into pdf directly or into html (and then convert to PDF). 
+
+Is it working? If not, try to decipher the error message (look up the error message, consult websites such as [stackoverflow](https://stackoverflow.com/) or [crossvalidated](https://stats.stackexchange.com/). 
+
+Once it knits in html, click on `Open in Browser` at the top left of the window pops out. Print your html file into pdf from your browser. Any issue? Ask your classmates or TA!
