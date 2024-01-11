@@ -1,5 +1,5 @@
 ---
-title: "HW 1"
+title: "Homework 1"
 ---
 
 ### Enter your name and EID here:
