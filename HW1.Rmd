@@ -13,7 +13,7 @@ The following questions focus on developing expectations for certain questions t
 
 ### Question 1
 
-Without looking at any sources or references, provide an estimate of how many adults in the United States currently have been diagnosed with asthma by a doctor? State your answer as an interval, as in "between L and U number of people" where L and U are a lower and upper bound, respectively. Explain what information or reasoning you used to arrive at this expectation.
+Without looking at any sources or references, provide an guess of how many adults in the United States currently have been diagnosed with asthma by a doctor? State your answer as an interval, as in "between L and U number of people" where L and U are a lower and upper bound, respectively. Explain what information or reasoning you used to arrive at this expectation.
 
 **Write your answer in bold here.**
 
@@ -35,22 +35,8 @@ Suppose a friend suggests that you get lunch at a new restaurant called AwesomeB
 
 This section focuses on building hypotheses for investigating data science questions.
 
+
 ### Question 3
-
-A scientist is interested in studying how the environment can affect a person's health. The question that she comes up with is "Does the environment affect health?" 
-
-Give two examples of how this question can be revised to be made more specific. (Hint: Which words in the question can be modified to be more specific?) Use a Markdown numbered list to present your examples.
-
-Of the two examples you provide, which question do you think would be easier to study?
-
-**Write your answer in bold here.**
-
-
-### Question 4
-
-The owner of a restaurant is interested in understanding how the restaurant's business changes with the local weather patterns. The question he asks is "How does the weather affect the business of my restaurant?" Give two examples of how this question can be made to be more specific. Use a Markdown numbered list to present your two examples.
-
-### Question 5
 
 You are assigned to analyze some data on temperatures in the city where you live. In particular, there is interest in understanding the temperature characteristics of the year 2023, which happened to be a very hot year. You are given a data file containing daily average temperature data for 2023. The data come in the form of a table where each row represents one day of data. The first thing you do when you open the data file is count the number of rows in the dataset. 
 
@@ -62,39 +48,41 @@ You are assigned to analyze some data on temperatures in the city where you live
 
 **Write your answer in bold here.**
 
-3. Develop two hypotheses that might explain why the number of rows in the dataset could be the number that you describe as unexpected. Use Markdown bullet points to state your two hypotheses.
+3. Develop two hypotheses that might explain why the number of rows in the dataset could be the number that you describe as *unexpected*. Use Markdown bullet points to state your two hypotheses.
 
 Write your answers using plain text bullet points here.
 
 
 
-### Question 6
+### Question 4
 
-Two executives at an online clothing retailer are debating how to address the issue of "abandoned carts", where customers add items to their shopping cart but never checkout and buy them. One executive comes up with an idea to streamline the checkout process on the web site by reducing the number of pages the customer must click through. That executive thinks that reducing the number of clicks will give customers less time to consider backing out of the purchase. The other executive is not sure whether streamlining the checkout will help and wants to see some data first. 
+Two executives at an online clothing retailer are debating how to address the issue of "abandoned carts", where customers add items to their shopping cart but never checkout and buy them. One executive comes up with an idea to streamline the checkout process on the web site by reducing the number of pages the customer must click through. That executive thinks that reducing the number of clicks will give customers less time to consider backing out of the purchase. The other executive is not sure whether streamlining the checkout will help and wants to see some data first. Ultimately, both executives want to increase the number of "successful checkouts", which is their primary outcome here.
 
-Propose two checkable hypotheses that relate to the business question being debated (call them "Hypothesis A" and "Hypothesis "B"). Assume, within reason, that whatever data required to check those hypotheses are available or obtainable.
+Using the primary outcome "successful checkouts", propose two checkable hypotheses that relate to the business question being debated (call them "Hypothesis A" and "Hypothesis "B"). Assume, within reason, that whatever data required to check those hypotheses are available or obtainable.
 
 * Write your hypotheses here as a bulleted list
 
 
-### Question 7
+### Question 5
 
-For the two hypotheses that you proposed in the previous question (Hypothesis A and Hypothesis B), describe 
+Continuing from the previous question, suppose that the summary statistic that you are going to look at in the data is the total number of successful checkouts over a 3 month period. For the two hypotheses that you proposed in the previous question (Hypothesis A and Hypothesis B), describe 
 
-* Describe what outcome you would expect to observe if Hypothesis A were true (i.e. what would you expect to see in the data that you would collect?)
-
-**Write your answer in bold here.**
-
-e* Similarly, describe what outcome you would expect to observe in the data if Hypothesis B were true.
+* Describe what you would expect the summary statistic to show if Hypothesis A were true (i.e. what would you expect to see in the data that you would collect?)
 
 **Write your answer in bold here.**
 
+* Similarly, describe what you would expect the summary statistic to show if Hypothesis B were true.
 
-### Question 8
+**Write your answer in bold here.**
+
+
+### Question 6
 
 The City of Baltimore, Maryland noticed that there were a significant number of car accidents happening on an interstate highway (Interstate 83) that runs through the city. City officials hypothesized that the reason there were so many accidents was that drivers were driving too fast (above the posted speed limit of 55 mph) around some of the curves in the highway. In response, the city decided to install speed cameras just before one of the curves where there were a large number of accidents. Ultimately, the speed cameras would be able to issue speeding tickets to drivers who exceeded the speed limit. However, initially the city wanted to use the cameras to collect some data on driver speeds. 
 
-* If the city's hypothesis is Hypothesis A (drivers are driving over the speed limit and causing accidents), propose two alternative hypotheses (Hypothesis B and Hypothesis C) that would explain why there are so many accidents occurring.
+The city's hypothesis is Hypothesis A: Most drivers (greater than 75%) are driving over the speed limit
+
+* Propose two alternative hypotheses (Hypothesis B and Hypothesis C) that might also be true about driver speeds on this highway.
 
 **Write your answer in bold here.**
 
@@ -103,13 +91,14 @@ The City of Baltimore, Maryland noticed that there were a significant number of 
 **Write your answer in bold here.**
 
 
-### Question 9
+### Question 7
 
-The City of Boston intended to initiate a program to improve [street safety at the neighborhood level](https://www.boston.gov/departments/transportation). The program involved (1) installing speed humps on small streets to reduce the prevalence of speeding; and, near some public places, adding crosswalk features that improve visibility, reinforce yielding to pedestrians, and slow drivers moving through. Before implementing the program the city wants to measure recent trends in pedestrian safety as part of a baseline assessment. 
+Suppose you are considering moving to Portland, Oregon and you are worried about the weather in that city (you've heard it's cold there). You are especially interested in the temperature in the summer because you enjoy going outside in the summer months. You ask a friend who lives there about the weather and she offers to do a quick data analysis for you to find out that the average daily temperature for the entire year of 2023 was 56 degrees Fahrenheit. Using the concept of an informative analytic tool, explain why the result of this data analysis is *not* informative for the question you are considering.
 
-Two hypotheses related to this issue are (A) Accidents involving pedestrians have been constant over the past 2 years; and (B) Accidents involving pedestrians have been decreasing over the past 2 years. The tool that they choose to analyze the data is a plot of the monthly number of pedestrian-involved accidents over the most recent two years. Based on the definition of an informative tool, is this tool informative for the proposed hypotheses? Explain/demonstrate why or why not.
 
 **Write your answer in bold here.**
+
+
 
 ## Part 3: (5 pts)
 
@@ -120,13 +109,13 @@ A critical question for Stitch Fix to consider is "Which clothes should the send
 Suppose you are in charge of building the intake survey and the algorithm for choosing clothes based on the intake survey data. 
 
 
-### Question 10: (2 pts)
+### Question 8: (2 pts)
 
 What kinds of questions do you think might be useful to ask of a customer in an intake survey in order to better choose clothes for them? What kinds of data would be most valuable? See if you can come up with at least 5 items.
 
 **Your answer goes here. Write sentences in bold.**
 
-### Question 11: (3 pts)
+### Question 9: (3 pts)
 
 In addition to the technical challenges of collecting the data and building this algorithm, you must also consider the impact the algorithm may have on the people involved. What potential negative impact might the algorithm have on the customers who are submitting their data? Consider both the data being submitted as well as the way in which the algorithm will be used when answering this question.
 
@@ -141,10 +130,16 @@ In addition to the technical challenges of collecting the data and building this
 
 ------------------------------------------------------------------------
 
-## Formatting: (3 pts)
+## Formatting: (2 pts)
 
-Knit your file! Into pdf directly or into html (and then convert to PDF). 
+Render your file! You can
 
-Is it working? If not, try to decipher the error message (look up the error message, consult websites such as [stackoverflow](https://stackoverflow.com/) or [crossvalidated](https://stats.stackexchange.com/). 
+1. Render your file into HTML by running the Knit command in RStudio (clicking the "Knit" button above the editor)
 
-Once it knits in html, click on `Open in Browser` at the top left of the window pops out. Print your html file into pdf from your browser. Any issue? Ask your classmates or TA!
+2. Once it renders in HTML, click on `Open in Browser` at the top left of the window that pops out. (Alternatively, you can open the HTML file in your browser directly.)
+
+3. Print your HTML file into PDF from your browser. 
+
+4. Upload your PDF file to Gradescope.
+
+5. Remember to mark the pages that correspond to each question!
