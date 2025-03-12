@@ -142,4 +142,4 @@ Render your file! You can
 
 4. Upload your PDF file to Gradescope.
 
-5. Remember to mark the pages that correspond to each question!
+5. Remember to mark the pages in Gradescope that correspond to each question!
